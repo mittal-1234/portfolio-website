@@ -381,8 +381,6 @@ ul {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  /* Optional: Blue tint overlay styling to match the image */
-  filter: hue-rotate(190deg) saturate(150%); 
 }
 
 .glow-ring {
