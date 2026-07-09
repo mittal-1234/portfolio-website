@@ -33,7 +33,6 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     overflow-x: hidden;
-    cursor: none; /* For custom cursor */
 }
 
 /* Typography */
@@ -139,7 +138,6 @@ ul {
     font-weight: 600;
     font-family: var(--font-heading);
     transition: var(--transition);
-    cursor: none;
     border: none;
     outline: none;
 }
@@ -176,7 +174,6 @@ ul {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
     transition: var(--transition);
-    cursor: none;
 }
 
 .btn-icon:hover {
@@ -252,7 +249,6 @@ ul {
 .menu-btn {
     display: none;
     font-size: 1.5rem;
-    cursor: none;
 }
 
 /* ==========================================================================
@@ -898,7 +894,4 @@ footer p {
     }
 }
 
-/* Hover effects for no-cursor mode */
-button, a, input, textarea, .project-card, .menu-btn {
-    cursor: none;
-}
+/* Hover effects for no-cursor mode (removed to restore default cursor) */
