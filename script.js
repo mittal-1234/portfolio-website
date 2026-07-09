@@ -13,13 +13,13 @@ interactables.forEach(el => {
     el.addEventListener('mouseenter', () => {
         cursorGlow.style.width = '100px';
         cursorGlow.style.height = '100px';
-        cursorGlow.style.background = 'radial-gradient(circle, rgba(236, 72, 153, 0.4) 0%, rgba(0,0,0,0) 70%)';
+        cursorGlow.style.background = 'radial-gradient(circle, rgba(236, 72, 153, 0.6) 0%, rgba(0,0,0,0) 70%)';
     });
     
     el.addEventListener('mouseleave', () => {
         cursorGlow.style.width = '400px';
         cursorGlow.style.height = '400px';
-        cursorGlow.style.background = 'radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(0,0,0,0) 70%)';
+        cursorGlow.style.background = 'radial-gradient(circle, rgba(99, 102, 241, 0.4) 0%, rgba(0,0,0,0) 70%)';
     });
 });
 
