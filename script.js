@@ -24,7 +24,7 @@ interactables.forEach(el => {
 });
 
 // Typing Effect
-const textArray = ["Machine Learning Enthusiast", "Python Full-Stack Developer", "Problem Solver", "Future Software Engineer"];
+const textArray = ["Python Full-Stack Developer", "Quick Learner", "Problem Solver", "Future Software Engineer"];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 2000; 
